@@ -83,3 +83,7 @@ After installation, you can launch the test suite from outside the
 source directory (you will need to have the ``nose`` package installed)::
 
   nosetests -v dsdp
+
+Note
+-------
+Remove #include <malloc.h> in dsdploginfo.c to install on M1 Mac.
